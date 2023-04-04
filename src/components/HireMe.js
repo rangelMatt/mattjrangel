@@ -7,11 +7,13 @@ const HireMe = () => {
     <div
       className="fixed left-4 bottom-4
   flex items-center justify-center overflow-hidden
-  
+  md:right-8 md:left-auto md:top-0 md:bottom-auto md:absolute
+  sm:right-0
   "
     >
       <div
         className="w-48 h-auto items-center flex justify-center relative
+        md:w-24
       "
       >
         <CircularText
@@ -27,6 +29,7 @@ const HireMe = () => {
 
          dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
                 hover:dark:border-light
+                md:w-12 md:h-12 md:text-[10px]
         "
         >
           Hire Me
