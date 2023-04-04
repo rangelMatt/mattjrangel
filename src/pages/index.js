@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePicBg from "../../public/images/profile/developer-pic-1-bg.png";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
@@ -22,7 +23,7 @@ export default function Home() {
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2">
               <Image
-                src={profilePic}
+                src={profilePicBg}
                 alt="MR"
                 className="w-full h-auto
               "
