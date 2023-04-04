@@ -19,7 +19,7 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2">
@@ -28,6 +28,10 @@ export default function Home() {
                 alt="MR"
                 className="w-full h-auto
               "
+                priority
+                sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              50vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
@@ -49,6 +53,9 @@ export default function Home() {
                 rounded-lg text-lg font-semibold
                 hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark
+
+                dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
+                hover:dark:border-light
                 "
                   download={true}
                 >
@@ -57,7 +64,7 @@ export default function Home() {
                 <Link
                   href="mailto:mattrangel@gmail.com"
                   target={"_blank"}
-                  className="ml-4 text-lg font-medium capitalize text-dark underline"
+                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light"
                 >
                   Contact
                 </Link>
