@@ -58,7 +58,7 @@ const Experience = () => {
             company="Prime Electric"
             companyLink="www.primee.com/"
             time="2016-2021"
-            address="Mountain View, CA"
+            address="Bellevue, WA"
             work="Worked on a team responsible for multiple projects at any given  new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
