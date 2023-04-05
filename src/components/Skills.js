@@ -49,6 +49,7 @@ const Skills = () => {
         <Skill name="Python" x="0vw" y="-20vw" />
         <Skill name="Firebase" x="-25vw" y="18vw" />
         <Skill name="Tailwind CSS" x="18vw" y="18vw" />
+        <Skill name="Eslint/Prettier" x="-6vw" y="28vw" />
       </div>
     </>
   );

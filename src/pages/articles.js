@@ -118,7 +118,7 @@ const articles = () => {
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
-        <Layout className="pt-16 ">
+        {/* <Layout className="pt-16 ">
           <AnimatedText
             text="Words Can Change The World! "
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-xl xs:!text-4xl "
@@ -188,7 +188,7 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
               link="/"
             />
           </ul>
-        </Layout>
+        </Layout> */}
       </main>
     </>
   );
