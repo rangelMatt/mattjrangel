@@ -54,51 +54,21 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
+            position="Project Manager"
+            company="Prime Electric"
+            companyLink="www.primee.com/"
+            time="2016-2021"
             address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
+            work="Worked on a team responsible for multiple projects at any given  new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
           />
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
+            position="Electrician"
+            company="IBEW Local #46"
+            companyLink="https://ibew46.com/"
+            time="2011-2016"
+            address="Greater Seattle Area"
             work="Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."

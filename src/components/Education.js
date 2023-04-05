@@ -45,22 +45,22 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Software Development in Full-Stack Python Computer Software Engineering"
+            time="2021-2022"
+            place="Code Fellows"
+            info="Relevant courses included Data Structures and Algorithms, Collaboration & Open Source, and Object-Oriented Programming."
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Construction Management"
+            time="2015-2016"
+            place="University of Washington"
+            info="Relevant courses included Project Planning, Scheduling, and Staff Development."
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Union Electrical Journeyman"
+            time="2011-2015"
+            place="Puget Sound Joint Apprentice Training Center"
+            info="Installation of electrical distribution centers, panel boards, side panels, conduit systems, motor controls, lighting, fire alarms, temporary wiring, etc."
           />
         </ul>
       </div>
