@@ -47,18 +47,20 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning Vision Into Reality With Code And Design."
+                text="Simplifying the complex, solving problems through code"
                 className="!text-6xl !text-left 
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl  
                 "
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a passionate developer with expertise in full-stack web
-                development, I thrive on tackling complex problems and
-                transforming them into incredibly useful web applications. Check
-                out my latest projects and articles to see my dedication to
-                leveraging React.js and other cutting-edge technologies to
-                create innovative solutions.
+                As a passionate career changer and life long learner, I start
+                from a place of curiosity and growth mindset. I find inspiration
+                in the people I work with, their perspective, and the
+                opportunity to problem solve together. Challenges are
+                invigorating and are the drivers to greater ideas. Check out my
+                latest projects and articles to see my dedication to leveraging
+                React.js and other cutting-edge technologies to create
+                innovative solutions.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
