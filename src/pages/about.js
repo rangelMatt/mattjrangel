@@ -45,7 +45,7 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Growth Over Perfection"
             className="mb-16 lg:!text-7xl sm:!text-6xl xl:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
@@ -61,14 +61,16 @@ const about = () => {
                 interfaces.
               </p>
               <p className="my-4 font-medium">
-                In my view, design entails more than just surface-level
+                n my view, design entails more than just surface-level
                 aesthetics; it involves addressing challenges and crafting
                 user-friendly, engaging experiences.
               </p>
               <p className="font-medium">
-                My background is in full cycle project management. I truly live
-                at the intersection of what customers need, what engineers can
-                build, and what timeline and scope align with both.
+                My background is in full cycle project management. My goal is to
+                bring a decade of experience to a software focused role, and
+                mission-driven team. I truly live at the intersection of what
+                customers need, what engineers can build, and what timeline and
+                scope align with both.
               </p>
             </div>
 
@@ -107,7 +109,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl ">
-                  <AnimatedNumbers value={7} />+
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   years of experience
