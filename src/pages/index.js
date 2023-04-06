@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Matt Rangel&apos;s</title>
+        <title>Matt Rangel&apos;s Portfolio</title>
         <meta
           name="description"
           content="Front End Software Engineer Portfolio"
