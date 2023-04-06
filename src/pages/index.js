@@ -21,7 +21,10 @@ export default function Home() {
     <>
       <Head>
         <title>Matt Rangel&apos;s</title>
-        <meta name="description" content="Front End Software Engineer" />
+        <meta
+          name="description"
+          content="Front End Software Engineer Portfolio"
+        />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
