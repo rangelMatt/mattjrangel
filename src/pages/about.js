@@ -61,7 +61,7 @@ const about = () => {
                 interfaces.
               </p>
               <p className="my-4 font-medium">
-                n my view, design entails more than just surface-level
+                In my view, design entails more than just surface-level
                 aesthetics; it involves addressing challenges and crafting
                 user-friendly, engaging experiences.
               </p>
