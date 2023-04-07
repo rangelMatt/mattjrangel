@@ -67,9 +67,7 @@ const Experience = () => {
             companyLink="https://ibew46.com/"
             time="2011-2016"
             address="Greater Seattle Area"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            work="Coordinated between all other trades to anticipate and plan for interdependencies. Delegated and evaluated work to crews."
           />
         </ul>
       </div>
