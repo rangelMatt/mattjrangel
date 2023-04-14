@@ -19,11 +19,12 @@ const Footer = () => {
           <Link
             href="https://github.com/rangelMatt"
             className="underline underline-offset-2"
+            target={"_blank"}
           >
             Matt Rangel
           </Link>
         </div>
-        <Link href="https://github.com/rangelMatt" target={"_blank"}>
+        <Link href="https://www.linkedin.com/in/rangel-matt/" target={"_blank"}>
           Say Hello
         </Link>
       </Layout>

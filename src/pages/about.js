@@ -9,6 +9,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/developer-pic-2.png";
+import { Special_Elite } from "next/font/google";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -46,8 +47,18 @@ const about = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Growth Over Perfection"
-            className="mb-16 lg:!text-7xl sm:!text-6xl xl:!text-4xl sm:mb-8"
+            className="mb-2 lg:!text-7xl sm:!text-6xl xl:!text-4xl sm:mb-8"
           />
+          {/* <AnimatedText
+            text="'It is not the critic who counts...'"
+            className={`mb-2 lg:!text-3.5xl sm:!text-3xl xl:!text-2xl sm:mb-4 text-dark/75 dark:text-light/75
+            font-specialE`}
+          />
+          <AnimatedText
+            text="Man in the Arena -Theodore Roosevelt"
+            className={`mb-2 lg:!text-2.5xl sm:!text-2xl xl:!text-xl sm:mb-2 text-dark/75 dark:text-light/75
+            font-specialE`}
+          /> */}
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
@@ -111,7 +122,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl ">
                   <AnimatedNumbers value={10} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   years of experience
                 </h2>
               </div>
