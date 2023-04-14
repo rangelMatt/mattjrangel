@@ -4,19 +4,13 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
 import profilePicBg from "../../public/images/profile/developer-pic-1-bg.png";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
 
-import { pdfjs, Document, Page } from "react-pdf";
-
-// import resume from "../assets/Rangel-Resume.pdf";
-
 export default function Home() {
-  pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
   return (
     <>
       <Head>
