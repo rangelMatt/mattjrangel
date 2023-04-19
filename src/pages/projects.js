@@ -147,16 +147,16 @@ const projects = () => {
         <Layout className="pt-16 ">
           <AnimatedText
             text="Curiosity Fuels Joy"
-            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-xl xs:!text-4xl"
+            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-5xl"
           />
           <AnimatedText
             text="'I guess you could call it a 'failure', but I prefer the term 'learning experience'.'"
-            className={`mb-2 lg:!text-3.5xl sm:!text-3xl xl:!text-2xl sm:mb-4 text-dark/75 dark:text-light/75
+            className={`mb-2 lg:!text-3.5xl sm:!text-2xl xl:!text-2xl sm:mb-4 text-dark/75 dark:text-light/75
             font-specialE`}
           />
           <AnimatedText
             text="Andy Weir, The Martian"
-            className={`mb-2 lg:!text-2.5xl sm:!text-2xl xl:!text-xl sm:mb-2 text-dark/75 dark:text-light/75
+            className={`mb-2 lg:!text-2.5xl sm:!text-2xl xl:!text-xl sm:mb-8 text-dark/75 dark:text-light/75
             font-specialE`}
           />
 

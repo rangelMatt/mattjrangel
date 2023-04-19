@@ -51,13 +51,13 @@ const about = () => {
           />
           <AnimatedText
             text="'Do what you can, with what you have, where you are.'"
-            className={`mb-2 lg:!text-3.5xl sm:!text-3xl xl:!text-2xl sm:mb-4 text-dark/75 dark:text-light/75
+            className={`mb-2 lg:!text-3.5xl sm:!text-2xl xl:!text-2xl sm:mb-4 text-dark/75 dark:text-light/75
             font-specialE`}
           />
           <AnimatedText
             text="Theodore Roosevelt"
-            className={`mb-2 lg:!text-2.5xl sm:!text-2xl xl:!text-xl sm:mb-2 text-dark/75 dark:text-light/75
-            font-specialE`}
+            className={`mb-2 lg:!text-2.5xl sm:!text-2xl xl:!text-xl text-dark/75 dark:text-light/75
+            font-specialE sm:mb-8`}
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
