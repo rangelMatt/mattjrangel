@@ -204,7 +204,7 @@ local currency."
                 summary="Airbnb Clone App that allows to browse and search for different Airbnb listings, create a user account, create Airbnb listings, and book available listings.
 Built with React, Tailwind CSS, Next.JS, Prisma, MongoDB, NextAuth & Vercel.
 "
-                link="https://rent-stay-i4canr4wn-rangelmatt.vercel.app/"
+                link="https://rent-stay.vercel.app/"
                 github="https://github.com/rangelMatt/airstay"
                 type="Featured Project"
               />
