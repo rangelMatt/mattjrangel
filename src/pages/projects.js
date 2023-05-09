@@ -152,12 +152,14 @@ const projects = () => {
           />
           <AnimatedText
             text="'I guess you could call it a 'failure', but I prefer the term 'learning experience'.'"
-            className={`mb-2 lg:!text-3.5xl sm:!text-2xl xl:!text-2xl sm:mb-4 text-dark/75 dark:text-light/75
+            className={`mb-2 !text-6xl 
+                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl sm:mb-4 text-dark/75 dark:text-light/75
             font-specialE`}
           />
           <AnimatedText
             text="Andy Weir, The Martian"
-            className={`mb-2 lg:!text-2.5xl sm:!text-2xl xl:!text-xl sm:mb-8 text-dark/75 dark:text-light/75
+            className={`mb-2 !text-3xl 
+                xl:!text-2.5xl lg:!text-center lg:!text-3xl md:!text-2.5xl sm:!text-1.5xl sm:mb-8 text-dark/75 dark:text-light/75
             font-specialE`}
           />
 

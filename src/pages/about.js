@@ -47,16 +47,18 @@ const about = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Growth Over Perfection"
-            className="mb-2 lg:!text-7xl sm:!text-6xl xl:!text-4xl sm:mb-8"
+            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-5xl"
           />
           <AnimatedText
             text="'Do what you can, with what you have, where you are.'"
-            className={`mb-2 lg:!text-3.5xl sm:!text-2xl xl:!text-2xl sm:mb-4 text-dark/75 dark:text-light/75
+            className={`mb-2 !text-6xl 
+                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl sm:mb-4 text-dark/75 dark:text-light/75
             font-specialE`}
           />
           <AnimatedText
             text="Theodore Roosevelt"
-            className={`mb-2 lg:!text-2.5xl sm:!text-2xl xl:!text-xl text-dark/75 dark:text-light/75
+            className={`mb-2 !text-3xl 
+                xl:!text-2.5xl lg:!text-center lg:!text-3xl md:!text-2.5xl sm:!text-1.5xl text-dark/75 dark:text-light/75
             font-specialE sm:mb-8`}
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
