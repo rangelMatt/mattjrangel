@@ -4,11 +4,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create modal component in react using react portals.png";
-import article3 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import article4 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import article1 from "../../public/images/articles/Finding the perfect role.png";
+import article2 from "../../public/images/articles/Becoming an Effective PM.png";
+import article3 from "../../public/images/articles/Portfolio shot.png";
+import article4 from "../../public/images/articles/gym-app.png";
+import article5 from "../../public/images/articles/reactElementvsComponent.png";
+import article6 from "../../public/images/articles/atHomePM.png";
+import article7 from "../../public/images/articles/ReactRoadMap.png";
+import article8 from "../../public/images/articles/ReactBeginners.png";
+import article9 from "../../public/images/articles/react_overview.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -118,26 +122,24 @@ const articles = () => {
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
-        {/* <Layout className="pt-16 ">
+        <Layout className="pt-16 ">
           <AnimatedText
             text="Words Can Change The World! "
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-xl xs:!text-4xl "
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-16">
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              time="9 min read"
-              link="/"
+              title="Learning about careers in Project Management"
+              summary="Learn Job descriptions and what they mean plus the responsibilities to be a successful project manager."
+              time="3 min read"
+              link="https://rangelmatt.github.io/reading-notes/googlePmCert/Week_1/pmCareers/"
               img={article1}
             />
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              time="9 min read"
-              link="/"
+              title="Becoming an Effective Project Manager"
+              summary="Learn the value that a project manager brings to all sorts of businesses and how they impact an organization."
+              time="10 min read"
+              link="https://rangelmatt.github.io/reading-notes/newsLetter/homePm/"
               img={article2}
             />
           </ul>
@@ -146,49 +148,49 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
           </h2>
           <ul>
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="April 3, 2023"
+              title="Portfolio Introduction"
+              date="April 6, 2023"
               img={article3}
-              link="/"
+              link="https://rangelmatt.github.io/reading-notes/newsLetter/portfolio/"
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="April 3, 2023"
+              title="First Paid App"
+              date="Feb 2, 2023"
               img={article4}
-              link="/"
+              link="https://rangelmatt.github.io/reading-notes/newsLetter/firstPaidApp/"
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="April 3, 2023"
+              title="React Element vs Component"
+              date="Jan 30, 2023"
               img={article5}
-              link="/"
+              link="https://rangelmatt.github.io/reading-notes/reactRoadmap/reactElementvsComp/"
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="April 3, 2023"
-              img={article3}
-              link="/"
+              title="At Home “PM”ing "
+              date="Jan 24, 2023"
+              img={article6}
+              link="https://rangelmatt.github.io/reading-notes/newsLetter/homePm"
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="April 3, 2023"
-              img={article3}
-              link="/"
+              title="100 React Developer Road Map"
+              date="Jan 23, 2023"
+              img={article7}
+              link="https://rangelmatt.github.io/reading-notes/reactRoadmap/100-react/"
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="April 3, 2023"
-              img={article3}
-              link="/"
+              title="React Beginners Guide Reading Notes"
+              date="Jan 17, 2023"
+              img={article8}
+              link="https://rangelmatt.github.io/reading-notes/reactRoadmap/beginnersGuide/"
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="April 3, 2023"
-              img={article3}
-              link="/"
+              title="React Overview"
+              date="June 3, 2022"
+              img={article9}
+              link="https://rangelmatt.github.io/reading-notes/CodeFellows/401class/401class-38/"
             />
           </ul>
-        </Layout> */}
+        </Layout>
       </main>
     </>
   );
