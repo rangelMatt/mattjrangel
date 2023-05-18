@@ -13,6 +13,8 @@ import article6 from "../../public/images/articles/atHomePM.png";
 import article7 from "../../public/images/articles/ReactRoadMap.png";
 import article8 from "../../public/images/articles/ReactBeginners.png";
 import article9 from "../../public/images/articles/react_overview.png";
+import article10 from "../../public/images/articles/pmMethodologies.png";
+import article11 from "../../public/images/articles/projectLifeCycle.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -128,6 +130,20 @@ const articles = () => {
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-xl xs:!text-4xl "
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-16">
+            <FeaturedArticle
+              title="Introduction to project management methodologies"
+              summary="Learn Project Management methodologies that help guide project managers throughout a project with steps to take, tasks to complete, and principles for managing a project overall"
+              time="8 min read"
+              link="https://rangelmatt.github.io/reading-notes/googlePmCert/Week_3/3.2pmMethodologies/"
+              img={article10}
+            />
+            <FeaturedArticle
+              title="Project Life Cycle"
+              summary="Learn about the basic structure of a project, the life cycle, which is a great way to guide your project in the right direction so that you and your project stay on track and end up in the right place."
+              time="8 min read"
+              link="https://rangelmatt.github.io/reading-notes/googlePmCert/Week_3/3.1projectLifeCycle/"
+              img={article11}
+            />
             <FeaturedArticle
               title="Learning about careers in Project Management"
               summary="Learn Job descriptions and what they mean plus the responsibilities to be a successful project manager."
