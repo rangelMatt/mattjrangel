@@ -67,23 +67,23 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m Matt Rangel, a web developer with a passion for
+                Hi, I&apos;m Matt Rangel, a project manager with a passion for
                 creating beautiful, functional, and user-centered digital
-                experiences. For this I find a lot of joy using ReactJS to
-                display and present responsive and eye catching experience and
-                interfaces.
+                experiences.
               </p>
               <p className="my-4 font-medium">
-                In my view, design entails more than just surface-level
-                aesthetics; it involves addressing challenges and crafting
-                user-friendly, engaging experiences.
+                I find a lot of energy working through problems and joy in
+                connecting with people and building relationships. Thinking
+                through what new ideas can we experiment with? What problem can
+                we solve? How do we bring in unique points of view?
               </p>
               <p className="font-medium">
-                My background is in full cycle project management. My goal is to
-                bring a decade of experience to a software focused role, and
-                mission-driven team. I truly live at the intersection of what
-                customers need, what engineers can build, and what timeline and
-                scope align with both.
+                My background is in full in full cycle project management. My
+                goal is to bring a decade of experience to a software focused
+                role, and mission-driven team. I truly live at the intersection
+                of what customers need, what engineers can build, and what
+                timeline and scope align with both. I&apos;d love to meet you.
+                Let&apos;s chat.
               </p>
             </div>
 
