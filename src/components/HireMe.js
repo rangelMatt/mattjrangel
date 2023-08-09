@@ -16,9 +16,9 @@ const HireMe = () => {
         md:w-24
       "
       >
-        <CircularText
+        {/* <CircularText
           className={"fill-dark animate-spin-slow dark:fill-light"}
-        />
+        /> */}
         <Link
           href="mailto:mattrangel@gmail.com"
           className="flex items-center justify-center

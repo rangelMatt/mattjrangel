@@ -17,7 +17,7 @@ export default function Home() {
         <title>Matt Rangel&apos;s Portfolio</title>
         <meta
           name="description"
-          content="Front End Software Engineer Portfolio"
+          content="Project Manager and Program Manager Portfolio"
         />
 
         <link rel="icon" href="/favicon.ico" />
