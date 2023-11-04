@@ -9,6 +9,7 @@ import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
+import CalendlyEmbed from "@/components/CalendlyEmbed";
 
 export default function Home() {
   return (
@@ -80,6 +81,13 @@ export default function Home() {
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
+                </Link>
+                <Link
+                  href="https://calendly.com/mattrangel/informational"
+                  target={"_blank"}
+                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
+                >
+                  Schedule an Appointment
                 </Link>
               </div>
             </div>
