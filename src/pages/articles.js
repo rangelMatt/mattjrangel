@@ -102,7 +102,7 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
               50vw"
         />
       </Link>
-      <Link href={link} target="_blank" className="w-full cursor-pointe">
+      <Link href={link} target="_blank" className="w-full cursor-pointer">
         <h2 className="capitalize text-2xl font-bold my-2 mt-4 hover:underline xs:text-lg">
           {title}
         </h2>
@@ -134,28 +134,28 @@ const articles = () => {
               title="Introduction to project management methodologies"
               summary="Learn Project Management methodologies that help guide project managers throughout a project with steps to take, tasks to complete, and principles for managing a project overall"
               time="8 min read"
-              link="https://rangelmatt.github.io/reading-notes/googlePmCert/Week_3/3.2pmMethodologies/"
+              link="https://rangelmatt.github.io/reading-notes/googlePmCert/1.Week_3_Foundations/3.2pmMethodologies"
               img={article10}
             />
             <FeaturedArticle
               title="Project Life Cycle"
               summary="Learn about the basic structure of a project, the life cycle, which is a great way to guide your project in the right direction so that you and your project stay on track and end up in the right place."
               time="8 min read"
-              link="https://rangelmatt.github.io/reading-notes/googlePmCert/Week_3/3.1projectLifeCycle/"
+              link="https://rangelmatt.github.io/reading-notes/googlePmCert/1.Week_3_Foundations/3.1projectLifeCycle"
               img={article11}
             />
             <FeaturedArticle
               title="Learning about careers in Project Management"
               summary="Learn Job descriptions and what they mean plus the responsibilities to be a successful project manager."
               time="3 min read"
-              link="https://rangelmatt.github.io/reading-notes/googlePmCert/Week_1/pmCareers/"
+              link="https://rangelmatt.github.io/reading-notes/googlePmCert/1.Week_1_Foundations/pmCareers"
               img={article1}
             />
             <FeaturedArticle
               title="Becoming an Effective Project Manager"
               summary="Learn the value that a project manager brings to all sorts of businesses and how they impact an organization."
               time="10 min read"
-              link="https://rangelmatt.github.io/reading-notes/newsLetter/homePm/"
+              link="https://rangelmatt.github.io/reading-notes/googlePmCert/1.Week_2_Foundations/effectivePM"
               img={article2}
             />
           </ul>
@@ -182,7 +182,7 @@ const articles = () => {
               link="https://rangelmatt.github.io/reading-notes/reactRoadmap/reactElementvsComp/"
             />
             <Article
-              title="At Home “PM”ing "
+              title="At Home "PM"ing "
               date="Jan 24, 2023"
               img={article6}
               link="https://rangelmatt.github.io/reading-notes/newsLetter/homePm"
