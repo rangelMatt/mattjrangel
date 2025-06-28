@@ -1,4 +1,11 @@
 import AnimatedText from "@/components/AnimatedText";
+// Add this to the top of your file if you need to reroute next/babel for custom Babel config
+// In your .babelrc or babel.config.js, use the following alias if needed:
+// {
+//   "presets": [
+//     ["next/babel", { "cwd": "../../portfolio" }]
+//   ]
+// }
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Layout from "@/components/Layout";
