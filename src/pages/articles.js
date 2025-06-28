@@ -182,7 +182,7 @@ const articles = () => {
               link="https://rangelmatt.github.io/reading-notes/reactRoadmap/reactElementvsComp/"
             />
             <Article
-              title="At Home "PM"ing "
+              title='At Home "PM"ing'
               date="Jan 24, 2023"
               img={article6}
               link="https://rangelmatt.github.io/reading-notes/newsLetter/homePm"
