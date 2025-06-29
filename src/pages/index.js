@@ -59,7 +59,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/MattRangelOperationsProgramManager2024.pdf"
+                  href="/MATTHEW-RANGEL-PM-Resume.pdf"
                   download
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6
