@@ -20,6 +20,7 @@ const labelMap = {
   "project-management-tools-for-bjj": "Project Management Tools for BJJ",
   "recommended-reading": "Recommended Reading",
   about: "About",
+  projects: "Portfolio",
 };
 
 const Chevron = () => (
