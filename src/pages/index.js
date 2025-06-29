@@ -83,7 +83,7 @@ export default function Home() {
                   Contact
                 </Link>
                 <Link
-                  href="https://calendly.com/mattrangel/informational"
+                  href="https://calendly.com/mattrangel/quick-chat"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
