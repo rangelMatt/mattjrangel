@@ -30,9 +30,9 @@ function checkRateLimit(ip) {
 }
 
 function buildSystemPrompt(mode, pageMeta) {
-  const basePrompt = `You are an AI assistant for mattjrangel.com, a portfolio site focused on the intersection of Brazilian Jiu-Jitsu (BJJ) and Program Management. 
+  const basePrompt = `You are an AI assistant for mattjrangel.com, focused on the intersection of Brazilian Jiu-Jitsu (BJJ) and Program Management. 
 
-Style: Be concise, clear, and professional. Use bullet points when helpful. Keep responses under 120 words unless asked for depth.
+Style: Concise, PM×BJJ-aware, professional. Use bullet points when helpful. Keep responses under 120 words unless asked for depth.
 
 Context: This site showcases how BJJ principles apply to project management and vice versa.`;
 
@@ -43,7 +43,7 @@ Context: This site showcases how BJJ principles apply to project management and 
 Current page: ${pageMeta?.title || "Unknown page"}
 URL: ${pageMeta?.url || "Unknown URL"}
 
-Focus your responses on the current page content. Reference specific elements or topics from this page when relevant.`;
+Reference ${pageMeta?.title || "this page"} in your first sentence. Focus on current page content.`;
 
     case "bjj":
       return `${basePrompt}
@@ -82,6 +82,11 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
+  // Check for API key
+  if (!process.env.OPENAI_API_KEY) {
+    return res.status(400).json({ error: "Missing OPENAI_API_KEY" });
+  }
+
   // Rate limiting
   const clientIP = getRateLimitKey(req);
   if (!checkRateLimit(clientIP)) {
@@ -108,11 +113,11 @@ export default async function handler(req, res) {
     ];
 
     const stream = await openai.chat.completions.create({
-      model: process.env.OPENAI_MODEL || "gpt-4o-mini",
+      model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
       messages: allMessages,
       stream: true,
-      max_tokens: 500,
-      temperature: 0.7,
+      temperature: 0.3,
+      max_tokens: 700,
     });
 
     // Set headers for streaming

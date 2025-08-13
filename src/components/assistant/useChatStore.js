@@ -100,23 +100,6 @@ const useChatStore = create((set, get) => ({
 
       if (!response.ok) {
         const errorData = await response.json();
-
-        // Mock response for testing when API quota is exceeded
-        if (errorData.error && errorData.error.includes("quota")) {
-          console.log("API quota exceeded, using mock response for testing");
-
-          // Simulate streaming response
-          const mockResponse =
-            "This is a mock response for testing the chat UI. In production, this would be a real AI response from OpenAI. The chat interface is working correctly! 🎉";
-
-          // Simulate streaming by adding characters one by one
-          for (let i = 0; i < mockResponse.length; i++) {
-            await new Promise((resolve) => setTimeout(resolve, 50)); // 50ms delay
-            get().updateLastMessage(mockResponse[i]);
-          }
-          return;
-        }
-
         throw new Error(errorData.error || "Failed to send message");
       }
 
@@ -152,7 +135,7 @@ const useChatStore = create((set, get) => ({
       }
     } catch (error) {
       console.error("Chat error:", error);
-      set({ error: error.message });
+      set({ error: "AI chat is unavailable—check API key." });
 
       // Remove the assistant message if there was an error
       set((state) => ({

@@ -32,7 +32,7 @@ OPENAI_MODEL=gpt-4o-mini
 3. Add the same variables:
    - `OPENAI_API_KEY`: Your OpenAI API key
    - `OPENAI_MODEL`: (optional) Model name
-4. Redeploy your project
+4. **Redeploy your project** after adding environment variables
 
 ### 3. Dependencies
 
