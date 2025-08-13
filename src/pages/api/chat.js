@@ -43,7 +43,9 @@ Context: This site showcases how BJJ principles apply to project management and 
 Current page: ${pageMeta?.title || "Unknown page"}
 URL: ${pageMeta?.url || "Unknown URL"}
 
-Reference ${pageMeta?.title || "this page"} in your first sentence. Focus on current page content.`;
+Reference ${
+        pageMeta?.title || "this page"
+      } in your first sentence. Focus on current page content.`;
 
     case "bjj":
       return `${basePrompt}
