@@ -335,16 +335,18 @@ export default function ChatWidget({ pageMeta }) {
               {/* Input */}
               <div className="p-4 border-t border-gray-200 dark:border-gray-700">
                 <div className="flex gap-2">
-                  <textarea
-                    ref={inputRef}
-                    value={inputValue}
-                    onChange={(e) => setInputValue(e.target.value)}
-                    onKeyDown={handleKeyDown}
-                    placeholder="Type your message... (Shift+Enter for new line)"
-                    className="flex-1 resize-none rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                    rows={1}
-                    disabled={isStreaming}
-                  />
+                  <div className="flex-1 rounded-xl ring-1 ring-zinc-300 dark:ring-white/15 focus-within:ring-zinc-500 dark:focus-within:ring-white/30 bg-white/70 dark:bg-zinc-900/60 transition">
+                    <textarea
+                      ref={inputRef}
+                      value={inputValue}
+                      onChange={(e) => setInputValue(e.target.value)}
+                      onKeyDown={handleKeyDown}
+                      placeholder="Type your message... (Shift+Enter for new line)"
+                      className="w-full resize-none bg-transparent px-4 py-3 text-sm text-zinc-900 placeholder-zinc-500 dark:text-white dark:placeholder-white/50 dark:caret-white focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500 dark:focus-visible:ring-indigo-400 dark:focus-visible:ring-offset-zinc-900"
+                      rows={1}
+                      disabled={isStreaming}
+                    />
+                  </div>
                   <button
                     onClick={handleSend}
                     disabled={!inputValue.trim() || isStreaming}
