@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../../../components/Layout";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import ProjectDashboardLayout from "../../../components/assistant/ProjectDashboardLayout";
 
 const resources = [
   { href: "/project-dashboard/resources/bjj-glossary", title: "BJJ Glossary" },
@@ -17,10 +16,7 @@ const resources = [
 ];
 
 const ResourcesIndex = () => (
-  <ProjectDashboardLayout
-    pageTitle="Resources"
-    pageDescription="BJJ and Project Management Resources"
-  >
+  <>
     <Layout className="min-h-screen flex flex-col items-center justify-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -45,7 +41,7 @@ const ResourcesIndex = () => (
         </ul>
       </motion.div>
     </Layout>
-  </ProjectDashboardLayout>
+  </>
 );
 
 export default ResourcesIndex;

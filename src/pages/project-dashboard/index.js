@@ -3,14 +3,10 @@ import Layout from "../../components/Layout";
 import Link from "next/link";
 import TransitionEffect from "../../components/TransitionEffect";
 import { motion } from "framer-motion";
-import ProjectDashboardLayout from "../../components/assistant/ProjectDashboardLayout";
 // import Breadcrumbs from "../../components/Breadcrumbs";
 
 const DashboardIndex = () => (
-  <ProjectDashboardLayout
-    pageTitle="Project Dashboard"
-    pageDescription="BJJ × PM Project Management Dashboard"
-  >
+  <>
     <TransitionEffect />
     <motion.div
       initial={{ opacity: 0 }}
@@ -50,7 +46,7 @@ const DashboardIndex = () => (
         </nav>
       </Layout>
     </motion.div>
-  </ProjectDashboardLayout>
+  </>
 );
 
 export default DashboardIndex;

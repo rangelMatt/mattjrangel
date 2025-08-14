@@ -1,13 +1,9 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import { motion } from "framer-motion";
-import ProjectDashboardLayout from "../../components/assistant/ProjectDashboardLayout";
 
 const AboutDashboard = () => (
-  <ProjectDashboardLayout
-    pageTitle="About Project Dashboard"
-    pageDescription="Learn about the intersection of BJJ and Project Management"
-  >
+  <>
     <Layout className="min-h-screen flex flex-col items-center justify-center">
       <motion.div
         initial={{ opacity: 0 }}
@@ -51,7 +47,7 @@ const AboutDashboard = () => (
         </motion.div>
       </motion.div>
     </Layout>
-  </ProjectDashboardLayout>
+  </>
 );
 
 export default AboutDashboard;

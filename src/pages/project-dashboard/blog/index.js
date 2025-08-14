@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../../../components/Layout";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import ProjectDashboardLayout from "../../../components/assistant/ProjectDashboardLayout";
 // import Breadcrumbs from "../../../components/Breadcrumbs";
 
 const blogPosts = [
@@ -29,10 +28,7 @@ const blogPosts = [
 ];
 
 const BlogIndex = () => (
-  <ProjectDashboardLayout
-    pageTitle="Blog"
-    pageDescription="BJJ × PM Blog Posts"
-  >
+  <>
     <Layout className="min-h-screen flex flex-col items-center justify-center">
       {/* <Breadcrumbs /> */}
       <motion.div
@@ -58,7 +54,7 @@ const BlogIndex = () => (
         </ul>
       </motion.div>
     </Layout>
-  </ProjectDashboardLayout>
+  </>
 );
 
 export default BlogIndex;

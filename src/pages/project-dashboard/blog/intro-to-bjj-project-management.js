@@ -1,14 +1,10 @@
 import React from "react";
 import Layout from "../../../components/Layout";
 import { motion } from "framer-motion";
-import ProjectDashboardLayout from "../../../components/assistant/ProjectDashboardLayout";
 // import Breadcrumbs from "../../../components/Breadcrumbs";
 
 const IntroToBJJProjectManagement = () => (
-  <ProjectDashboardLayout
-    pageTitle="Intro to BJJ Project Management"
-    pageDescription="Discover how project management principles can transform your Brazilian Jiu-Jitsu training"
-  >
+  <>
     <Layout className="min-h-screen flex flex-col items-center justify-center">
       {/* <Breadcrumbs /> */}
       <motion.div
@@ -41,7 +37,7 @@ const IntroToBJJProjectManagement = () => (
         </motion.p>
       </motion.div>
     </Layout>
-  </ProjectDashboardLayout>
+  </>
 );
 
 export default IntroToBJJProjectManagement;

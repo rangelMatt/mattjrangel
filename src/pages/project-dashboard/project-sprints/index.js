@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../../../components/Layout";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import ProjectDashboardLayout from "../../../components/assistant/ProjectDashboardLayout";
 
 const sprints = [
   {
@@ -24,10 +23,7 @@ const sprints = [
 ];
 
 const ProjectSprintsIndex = () => (
-  <ProjectDashboardLayout
-    pageTitle="Project Sprints"
-    pageDescription="Sprint Retrospectives and Project Management"
-  >
+  <>
     <Layout className="min-h-screen flex flex-col items-center justify-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -52,7 +48,7 @@ const ProjectSprintsIndex = () => (
         </ul>
       </motion.div>
     </Layout>
-  </ProjectDashboardLayout>
+  </>
 );
 
 export default ProjectSprintsIndex;
