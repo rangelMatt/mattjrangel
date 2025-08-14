@@ -9,7 +9,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "branch:check": "bash scripts/check_branch_safe_to_delete.sh",
+    "branch:prune": "bash scripts/prune_project_dashboard_feature.sh"
   },
   "dependencies": {
     "eslint": "8.36.0",
