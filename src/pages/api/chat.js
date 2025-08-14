@@ -80,6 +80,11 @@ Focus on technical skills, leadership experience, and unique BJJ/PM intersection
 }
 
 export default async function handler(req, res) {
+  // Feature flag guard
+  if (process.env.NEXT_PUBLIC_AI_CHAT_ENABLED !== "true") {
+    return res.status(404).json({ error: "AI chat disabled" });
+  }
+
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
   }
